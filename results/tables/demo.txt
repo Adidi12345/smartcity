@@ -1,0 +1,11 @@
+Districts: 0=Centre, 1=North, 2=West, 3=East, 4=South
+Kruskal cost: 11, edges: [Edge[from=1, to=2, weight=1], Edge[from=0, to=2, weight=2], Edge[from=3, to=4, weight=3], Edge[from=1, to=3, weight=5]]
+Prim cost: 11, connected: true
+To 0: 0 [0]
+To 1: 3 [0, 2, 1]
+To 2: 2 [0, 2]
+To 3: 8 [0, 2, 1, 3]
+To 4: 11 [0, 2, 1, 3, 4]
+Topological order: [0, 1, 2, 3, 4]
+Cycle detected: true
+SCC: [[1, 2, 3, 4, 0]]
